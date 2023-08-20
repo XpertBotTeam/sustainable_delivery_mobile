@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'loginpage.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Home(),
+    home: LoginPage(),
   ));
 }
 class Home extends StatefulWidget {
@@ -21,5 +22,6 @@ class _HomeState extends State<Home> {
       ),
     );
   }
+
 }
 
